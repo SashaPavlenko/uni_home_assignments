@@ -1,0 +1,5 @@
+Cone 2 3
+Circle 2
+Sphere 2
+Cone 2 2
+Cylinder 3 2

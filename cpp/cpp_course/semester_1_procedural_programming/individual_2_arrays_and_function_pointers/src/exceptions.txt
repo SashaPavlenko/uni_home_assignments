@@ -1,0 +1,21 @@
+// Exception: an uninitialized array is passed to the function.
+// Error code: 1.
+if (a == nullptr)
+	throw 1;
+
+
+// Exception: an array consisting of 1 element cannot have alternating elements.
+// Error code: 2.
+if (size < 2)
+	throw 2;
+
+// Exception: if the array has no zeros, an exception is thrown saying that the condition cannot be fulfilled.
+// Error code: 3.
+if (index == size)
+	throw 3;
+
+// Exception: there is no element less than val in the array.
+// Error code: 4.
+if (!flag)
+	throw 4;
+

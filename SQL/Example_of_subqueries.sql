@@ -1,3 +1,6 @@
+-- NOTE: the string literals are Russian data values stored in the original database:
+--   'Папки' = 'Folders', 'Склад 1' = 'Warehouse 1'
+
 -- tsk 1
 select e.FULL_NAME, e.JOB_COUNTRY, e.SALARY,
     (select max(emp.SALARY)

@@ -1,0 +1,12 @@
+Triangle
+3 4 5
+Triangle
+12 5 8
+Triangle
+2 2 3
+Square
+4
+Poligon
+3 5
+Poligon
+5 5

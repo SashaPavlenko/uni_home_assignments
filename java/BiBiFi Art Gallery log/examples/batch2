@@ -1,0 +1,23 @@
+-K secret -T 55 -A -E John /log/log2
+-K secret -T 56 -A -G James /log/log2
+
+-T 1 -K myToken -G Alice -A /mylog/logfile
+
+-K secret -T 57 -A -R 0 -E John /log/log2
+-K secret -T 58 -A -R 0 -G James /log/log2
+
+-T 2 -K myToken -E John -A /mylog/logfile
+
+-K secret -T 59 -L -R 0 -E John /log/log2
+-K secret -T 60 -L -R 0 -G James /log/log2
+
+-T 3 -K myToken -E John -A -R 5 /mylog/logfile
+
+-K secret -T 61 -A -R 1 -E John /log/log2
+-K secret -T 62 -A -R 2 -G James /log/log2
+
+-T 4 -K myToken -G Alice -L /mylog/logfile
+
+-K secret -T 63 -A -G Michael /log/log2
+
+-T 5 -K myToken -G Bob -A /mylog/logfile

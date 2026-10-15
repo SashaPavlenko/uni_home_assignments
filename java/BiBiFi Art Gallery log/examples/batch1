@@ -1,0 +1,3 @@
+-T 6 -K myToken -G Bob -A -R 5 /mylog/logfile
+-T 7 -K myToken -G Alice -A /mylog/logfile
+-T 8 -K myToken -G Alice -A -R 5 /mylog/logfile

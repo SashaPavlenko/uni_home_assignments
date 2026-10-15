@@ -1,0 +1,2 @@
+Main-Class: l_append.LogAppend
+Class-Path: . libraries/picocli-4.7.5.jar . libraries/gson-2.8.2.jar
