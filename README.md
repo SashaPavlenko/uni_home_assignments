@@ -16,6 +16,7 @@
 - [Set_based_on_recursive_tree_realization](cpp/Set_based_on_recursive_tree_realization) - set on a recursive binary tree
 
 ## [Java](java)
+- [java_course](java/java_course) - university labs: collections, generics, streams, sockets and threads, JUnit
 - [BiBiFi Art Gallery log](java/BiBiFi%20Art%20Gallery%20log) - secure visitor log with encrypted files (Secure Software Engineering)
 - [Stack realization](java/Stack%20realization) - generic stack with JUnit tests
 
